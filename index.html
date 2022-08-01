@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurant Landing Page</title>
+
+    <!-- Css Eksternal -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- Font Poppins-->
+    <link href="fonts/stylesheet.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="navbar" class="container">
+        <div class="hstack gap-4">
+            <a href="#">Home</a>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+            </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Popular Restaurant</a></li>
+                  <li><a class="dropdown-item" href="#">Near Restaurant</a></li>
+                </ul>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+        </div>
+        <div class="hstack gap-2">
+            <img src="assets/logo.png" alt="logo" width="34px" height="34px">
+            <p class="name-logo">Resto</p>
+        </div>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search your favorite food" aria-label="Search">
+            <button class="login-button">Log In</button>
+        </form>
+    </div>
+    <!-- Akhir Navbar -->
+
+    <!-- Custom Slider -->
+    <div id="slider" class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/carousel-img.png" class="carousel-image" alt="carousel-1">
+                <div class="child-carousel carousel-caption d-none d-md-block"">
+                    <div class="hstack gap-1">
+                        <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                        <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                        <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                        <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                        <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                        <p class="carousel-rating"><span class="carousel-rate"> 5.0</span>(5.2K+)</p>
+                    </div>
+                    <div class="carousel-description">
+                        <p class="carousel-nama-tempat">Padang Restaurant</p>
+                        <p class="carousel-harga-tempat">IDR 49.999 - IDR 560.000</p>
+                        <div class="hstack gap-1">
+                            <img src="assets/icon-location.png" width="24px" height="24px" alt="icon-location">
+                            <p class="carousel-lokasi-tempat">Padang, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="carousel-link">
+                        <button class="reservasi-button" type="submit">Make Reservation <img src="assets/icon-right.png" width="24px" h="'24px" alt=""></button>
+                        <div class="hstack gap-1">
+                            <img src="assets/icon-t&c.png" width="24px" height="24px" alt="icon-t&c">
+                            <p class="carousel-lokasi-tempat">No extra cost</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carousel-img2.png" class="carousel-image" alt="carousel-2">
+                <div class="child-carousel carousel-caption d-none d-md-block"">
+                    <div class="hstack gap-1">
+                        <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                        <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                        <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                        <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                        <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                        <p class="carousel-rating"><span class="carousel-rate"> 5.0</span>(5.2K+)</p>
+                    </div>
+                    <div class="carousel-description">
+                        <p class="carousel-nama-tempat">Padang Restaurant</p>
+                        <p class="carousel-harga-tempat">IDR 49.999 - IDR 560.000</p>
+                        <div class="hstack gap-1">
+                            <img src="assets/icon-location.png" width="24px" height="24px" alt="icon-location">
+                            <p class="carousel-lokasi-tempat">Padang, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="carousel-link">
+                        <button class="reservasi-button" type="submit">Make Reservation <img src="assets/icon-right.png" width="24px" h="'24px" alt=""></button>
+                        <div class="hstack gap-1">
+                            <img src="assets/icon-t&c.png" width="24px" height="24px" alt="icon-t&c">
+                            <p class="carousel-lokasi-tempat">No extra cost</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              </div>
+            </div>
+    </div>
+    <!-- Akhir Custom Slider -->
+
+    <!-- Benefit -->
+    <div id="benefit" class="container">
+        <div class="col-sm text-center">
+            <p class="title-content">Special Benefit For You</p>
+            <p class="desc-content">Why Should Choose Us?</p>
+        </div>
+
+        <div class="menu-content-benefit row gap-4">
+            <div class="col-sm menus">
+                <div class="vstack gap-4 text-center">
+                    <img src="assets/benefit1.png" alt="benefit-1" width="80px" height="80px">
+                    <p class="title-benefit">Extra Discounts</p>
+                    <p class="desc-benefit">Get your special discount by using our reservation</p>
+                </div>
+                <button class="detail-button" type="submit">View Details <img src="assets/icon-right.png" width="24px" h="'24px" alt=""></button>  
+            </div>
+            <div class="col-sm menus">
+                <div class="vstack gap-4  text-center">
+                    <img src="assets/benefit2.png" alt="benefit-2" width="80px" height="80px">
+                    <p class="title-benefit">Come and Eat</p>
+                    <p class="desc-benefit">Get your own table quickly & without waiting in line</p>
+                </div>
+                <button class="detail-button" type="submit">View Details <img src="assets/icon-right.png" width="24px" h="'24px" alt=""></button>  
+            </div>
+            <div class="col-sm menus">
+                <div class="vstack gap-4  text-center">
+                    <img src="assets/benefit3.png" alt="benefit-3" width="80px" height="80px">
+                    <p class="title-benefit">No Extra Fee</p>
+                    <p class="desc-benefit">Get tax free if you want to order food and make a reservation
+                    </p>
+                </div>
+                <button class="detail-button" type="submit">View Details <img src="assets/icon-right.png" width="24px" h="'24px" alt=""></button>  
+            </div>
+            <div class="col-sm menus">
+                <div class="vstack gap-4 text-center">
+                    <img src="assets/benefit4.png" alt="benefit-4" width="80px" height="80px">
+                    <p class="title-benefit">Guaranteed Cleanliness</p>
+                    <p class="desc-benefit">We ensure the cleanliness of the place as well as the food</p>
+                </div>
+                <button class="detail-button" type="submit">View Details <img src="assets/icon-right.png" width="24px" h="'24px" alt=""></button>  
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Benefit -->
+
+    <!-- Most Popular Restaurant -->
+    <div id="restaurant" class="container">
+        <div class="row">
+            <div class="col-sm align-self-center">
+                <div class="vstack gap-2">
+                    <p class="title-content">Top 3 Featured Restaurant</p>
+                    <p class="desc-content">Most Popular Restaurants</p>
+                    <p>The best restaurant in our opinion is how much customers like it in terms of place, price, comfort and of course the taste of
+                        the food itself.</p>
+                </div>
+                <button class="all-button" type="submit">View All Restaurant <img src="assets/icon-right.png" width="24px" h="'24px" alt=""></button>  
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <!-- <img src="assets/restaurant.png" class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <div class="hstack gap-1">
+                        <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                        <p class="card-rating"><span class="card-rate"> 5.0</span>(7.6K+)</p>
+                      </div>
+                      <p class="card-title"><b>Bind Balorant</b></p>
+                      <div class="hstack gap-1">
+                        <img src="assets/icon-location.png" width="24px" height="24px" alt="icon-location">
+                        <p class="card-lokasi">Jakarta, Indonesia</p>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="hstack gap-2">
+                    <img src="assets/restaurant2.png" width="100%" height="475px" alt="Restaurant-2">
+                    <img src="assets/restaurant3.png" width="100%" height="475px" alt="Restaurant-3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Most Popular Restaurant -->
+
+    <!-- Restaurant Based by City -->
+    <div id="restaurant-by-city" class="container">
+        <div class="heading">
+            <div>
+                <p class="title-content">Restaurant Based By City</p>
+                <p class="desc-content">Restaurant Near You</p>
+            </div>
+            <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="assets/icon-location.png" width="24px" height="24px" alt="icon-location">
+                Jakarta, Indonesia
+            </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Bali, Indonesia</a></li>
+                <li><a class="dropdown-item" href="#">Makassar, Indonesia</a></li>
+              </ul>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <img src="assets/resto-by-city.png" class="card-img-top" alt="resto-by-city-1">
+                    <div class="card-body align-self-center align-items-end">
+                        <div>
+                            <div class="hstack gap-1">
+                                <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                                <p class="card-rating"><span class="card-rate"> 5.0</span>(7.6K+)</p>
+                            </div>
+                            <div class="vstack gap-2">
+                                <p class="card-title">Batavia Restaurant</p>
+                                <p class="card-idr">IDR 29.000 - IDR 259.999</p>
+                            </div>
+                        </div>
+                        <img class="align-self-center" src="assets/icon-next.png" width="36px" height="36px" alt="icon-next">
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="assets/resto-by-city2.png" class="card-img-top" alt="resto-by-city-2">
+                    <div class="card-body align-self-center align-items-end">
+                        <div>
+                            <div class="hstack gap-1">
+                                <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                                <p class="card-rating"><span class="card-rate"> 5.0</span>(3.6K+)</p>
+                            </div>
+                            <div class="vstack gap-2">
+                                <p class="card-title">Split Ascent Restaurant</p>
+                                <p class="card-idr">IDR 49.999 - IDR 560.000</p>
+                            </div>
+                        </div>
+                        <img class="align-self-center" src="assets/icon-next.png" width="36px" height="36px" alt="icon-next">
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="assets/resto-by-city3.png" class="card-img-top" alt="resto-by-city-3">
+                    <div class="card-body align-self-center align-items-end">
+                        <div>
+                            <div class="hstack gap-1">
+                                <img src="assets/icon-star.png" width="24px" height="24px" alt="icon-star">
+                                <p class="card-rating"><span class="card-rate"> 5.0</span>(11K+)</p>
+                            </div>
+                            <div class="vstack gap-2">
+                                <p class="card-title">Daza Fracture Restaurant</p>
+                                <p class="card-idr">IDR 29.999 - IDR 560.000</p>
+                            </div>
+                        </div>
+                        <img class="align-self-center" src="assets/icon-next.png" width="36px" height="36px" alt="icon-next">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row footer">
+            <div class="col-12 text-center">
+                <button class="all-button" type="submit">View All Restaurant <img src="assets/icon-right.png" width="24px" h="'24px" alt=""></button>  
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Restaurant Based by City -->
+
+    <!-- Profile Chef -->
+    <div id="chef" class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <img src="assets/chef.png" class="card-img-top" alt="chef">
+                    <div class="card-body-1 align-self-end">
+                        <div class="vstack gap-2">
+                            <img src="assets/chef-exp.png" width="80px" height="80px">
+                            <p class="chef-experience">12 Years</p>
+                            <p class="chef-title">Experience</p>
+                        </div>
+                    </div>
+                    <div class="card-body-2">
+                        <div>
+                            <div class="hstack gap-4">
+                                <img src="assets/restaurant.png" width="96px" height="132px">
+                                <div class="vstack gap-2 align-self-center">
+                                    <p class="chef-title">Chef at restaurant:</p>
+                                    <p class="chef-experience">Pearl Dolphin</p>
+                                    <a href="#">
+                                        <div class="hstack gap-2">
+                                            <p class="chef-detail">View Details</p>
+                                            <img src="assets/icon-right2.png" width="24px" height="24px" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 portfolio-chef">
+                <p class="title-content">Top 4 Expert Chefs</p>
+                <p class="desc-content">Expert Chefs in Fuddy</p>
+
+                <div class="vstack gap-4 lokasi-kerja">
+                    <div class="active">
+                        <div class="hstack gap-4" style="display: flex; justify-content: space-between;">
+                            <div>
+                                <p class="nama-makanan">PIZZA</p>
+                                <p class="namatempat-kerja">Phoenix Satcheup</p>
+                                <div class="hstack gap-1">
+                                    <img src="assets/icon-location.png" width="24px" height="24px" alt="icon-location">
+                                    <p class="lokasitempat-kerja">Padang, Indonesia</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#">View Detail <img src="assets/icon-right2.png" width="24px" h="'24px" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="none-active">
+                        <div class="vstack gap-2">
+                            <p class="nama-makanan">VEGAN</p>
+                            <p class="namatempat-kerja">Chamber Botfrag</p>
+                            <div class="hstack gap-1">
+                                <img src="assets/icon-location.png" width="24px" height="24px" alt="icon-location">
+                                <p class="lokasitempat-kerja">Bandung, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="none-active">
+                        <div class="vstack gap-2">
+                            <p class="nama-makanan">ROAST CHICKEN</p>
+                            <p class="namatempat-kerja">Asep Vandal</p>
+                            <div class="hstack gap-1">
+                                <img src="assets/icon-location.png" width="24px" height="24px" alt="icon-location">
+                                <p class="lokasitempat-kerja">Sunda, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="none-active">
+                        <div class="vstack gap-2">
+                            <p class="nama-makanan">BEEF STEAK</p>
+                            <p class="namatempat-kerja">I Made Invoker </p>
+                            <div class="hstack gap-1">
+                                <img src="assets/icon-location.png" width="24px" height="24px" alt="icon-location">
+                                <p class="lokasitempat-kerja">Bali, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="all-button mt-auto" type="submit">View All Chef <img src="assets/icon-right.png" width="24px" h="'24px" alt=""></button>  
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Profile Chef -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

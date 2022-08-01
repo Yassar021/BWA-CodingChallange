@@ -1,0 +1,454 @@
+* {
+    font-family: 'poppinsregular';
+    color: #232631;
+}
+
+body {
+    background-color: #FAFAFA;
+    padding-left:60px;
+    padding-right: 60px;
+}
+
+p {
+    margin: 0px !important;
+}
+
+/* Custom */
+.title-content {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #5A4FCF;
+}
+
+.desc-content {
+    font-size: 28px;
+    font-weight: 600;
+    color: #232631;
+}
+
+.all-button {
+    width: 238px;
+    height: 56px;
+    background-color: #FDC886;
+    border-radius: 12px;
+    border: none;
+    color: #232631;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 12px;
+    padding: 0px !important;
+}
+/* Akhir Custom */
+
+/* Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+#navbar a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #232631;
+    text-decoration: none;
+}
+
+#navbar .name-logo {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0px !important;
+}
+
+#navbar input {
+    width: 322px;
+    height: 56px;
+    border-color: #fff;
+    margin-right: 20px !important;
+    border-radius: 12px;
+}
+
+#navbar .login-button {
+    width: 104px;
+    height: 56px;
+    background: rgba(90, 79, 207, 0.1);
+    border-radius: 12px;
+    border: none;
+    color: #5A4FCF;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* Akhir Navbar */
+
+/* Slider */
+#slider {
+    padding-bottom: 120px;
+}
+
+#slider .carousel-image {
+    width: 1128px !important;
+    position: relative;
+    margin-left: 166px;
+}
+
+#slider .child-carousel {
+    width: 390px;
+    height: 297px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+#slider .child-carousel p {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#slider .carousel-caption {
+    left: 5% !important;
+    bottom: 8.25rem !important;
+}
+#slider .carousel-rating {
+    color: #656565;
+    font-size: 16px;
+    font-weight:400;
+    margin-left: 4px;
+}
+#slider .carousel-rate{
+    color: #FFB800;
+    font-size: 16px;
+    font-weight:600;
+    margin-right: 4px;
+}
+
+#slider .carousel-description {
+    margin-top: 8px;
+    text-align: left;
+}
+
+#slider .carousel-nama-tempat {
+    color: #232631;
+    font-size: 22px;
+    font-weight: 600;
+}
+#slider .carousel-harga-tempat {
+    color: #656565;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#slider .carousel-lokasi-tempat {
+    color: #656565;
+    font-size: 16px;
+    font-weight: 400;
+}
+#slider .carousel-link {
+    margin-top: 34px;
+    text-align: left;
+}
+#slider .reservasi-button {
+    width: 226px;
+    height: 56px;
+    background-color: #FDC886;
+    border-radius: 12px;
+    border: none;
+    color: #232631;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+/* Akhir Slider */
+
+/* benefit */
+
+#benefit .menu-content-benefit {
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+#benefit .menu-content-benefit .menus {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#benefit .menu-content-benefit .menus button{
+    margin-top: 54px
+}
+#benefit .menus {
+    border-radius: 24px;
+    background-color: #fff;
+}
+#benefit .vstack {
+    align-items: center;
+}
+
+#benefit .title-benefit {
+    font-size: 18px;
+    font-weight: 600;
+    color: #232631;
+}
+#benefit .desc-benefit {
+    font-size: 16px;
+    font-weight: 400;
+    color: #656565;
+}
+#benefit .detail-button {
+    width: 100%;
+    height: 72px;
+    background-color: #FFF;
+    border-radius: 12px;
+    border: none;
+    color: #232631;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 12px;
+    padding: 0px !important;
+}
+
+#benefit .detail-button:hover {
+    background-color: #FDC886;
+}
+/* akhir Benefit */
+
+/* Restaurant  Popular*/
+#restaurant {
+    padding-bottom: 120px;
+}
+
+#restaurant .card-lokasi {
+    color: #656565;
+    font-size: 16px;
+    font-weight: 400;
+}
+#restaurant .desc-content{
+    margin-bottom: 20px;
+}
+#restaurant .all-button{
+    margin-top: 56px;
+}
+
+#restaurant .card {
+    width: 100%; 
+    height: 475px; 
+    background-image: url('../assets/restaurant.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    border: none;
+}
+
+#restaurant .card-body{
+    background-color: #fff;
+    width: 352px;
+    height: 131px;
+    margin-top: 300px;
+    margin-bottom: 24px;
+    align-self: center;
+    border-radius: 24px;
+    padding: 24px
+}
+#restaurant .card-rating {
+    color: #656565;
+    font-size: 16px;
+    font-weight:400;
+    margin-left: 4px;
+}
+#restaurant .card-rate{
+    color: #FFB800;
+    font-size: 16px;
+    font-weight:600;
+    margin-right: 4px;
+}
+
+#restaurant .card-title {
+    color: #656565;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+/* Akhir Restaurant Popular */
+
+/* Restaurant based by City */
+#restaurant-by-city {
+    padding-bottom: 120px;
+}
+
+#restaurant-by-city .heading {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+#restaurant-by-city .nav-link {
+    width: 252px;
+    height: 64px;
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px; 
+    border-radius: 12px;
+    color: #656565;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#restaurant-by-city .card {
+    border-radius: 24px;
+    width: 427px;
+    height: 415px;
+}
+
+#restaurant-by-city .card-body{
+    position: absolute;
+    width: 379px;
+    height: 134px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 24px;
+    margin-top:262px;
+}
+
+#restaurant-by-city .card-title {
+    color: #232631;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 4px !important;
+}
+
+#restaurant-by-city .card-idr {
+    color: #656565;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#restaurant-by-city .footer{
+    margin-top: 56px;
+}
+
+/* Akhir Restaurant by City */
+
+/* Chef */
+#chef {
+    padding-bottom: 120px;
+}
+
+#chef .card {
+    border-radius: 24px;
+    width: 560px;
+    height: 848px;
+    background-color: transparent;
+    border: none;
+    margin-left: 40px;
+}
+
+#chef .card-body-1{
+    position: absolute;
+    width: 179px;
+    height: 203px;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 24px;
+    margin-top:40px;
+    margin-right: -30px;
+}
+#chef .card-body-2{
+    position: absolute;
+    width: 330px;
+    height: 180px;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 24px;
+    margin-top: 600px;
+    margin-left: -40px;
+}
+
+#chef .card-body-1 .vstack {
+    align-items: center;
+}
+
+#chef a {
+    text-decoration: none;
+}
+
+#chef .chef-experience {
+    font-size: 18px;
+    font-weight: 600;
+    color: #232631;
+}
+
+#chef .chef-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #656565;
+}
+
+#chef .chef-detail {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FDC886;
+}
+
+#chef .lokasi-kerja{
+    margin-top: 32px;
+}
+
+#chef .portfolio-chef {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+#chef .portfolio-chef .active {
+    padding: 24px; 
+    width: 100%;
+    background-color: #fff; 
+    border-radius: 24px;
+}
+
+#chef .portfolio-chef .active a {
+    text-decoration: none;
+    color: #FDC886;
+}
+
+#chef .portfolio-chef .active .hstack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#chef .portfolio-chef .none-active {
+    padding: 24px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    background-color: transparent; 
+    border-radius: 24px;
+}
+
+#chef .portfolio-chef .nama-makanan {
+    font-size: 16px;
+    font-weight: 500;
+    color:#656565;
+}
+#chef .portfolio-chef .namatempat-kerja {
+    font-size: 22px;
+    font-weight: 600;
+    color: #232631;
+}
+#chef .portfolio-chef .lokasitempat-kerja {
+    font-size: 16px;
+    font-weight: 400;
+    color: #656565;
+}
+
+/* Akhir Chef */
+
+
